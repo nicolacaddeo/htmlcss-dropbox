@@ -10,6 +10,10 @@ body {
     line-height: 1.2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* /GENERAL RULES */
 
 /***** UTILITIES *****/
@@ -49,5 +53,13 @@ body {
 /* /STYLE */
 
 /****** DEBUG ******/
+header {
+    height: 90px;
+}
+
+.free-trial {
+    height: 720px;
+    background-color: #b4d0e7;
+}
 
 /****** DEBUG ******/
