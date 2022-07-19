@@ -83,13 +83,19 @@ header img {
 
 h1 {
     font-size: 5rem;
-    padding: 100px 0 40px 0;
+    padding-top: 100px;
     line-height: 6rem;
     font-weight: 800;
 }
 
 .w-30 {
     width: 30%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.w-30 * {
+    margin: 20px 0;
 }
 
 .w-70 {
@@ -98,6 +104,15 @@ h1 {
 
 .jumbo-tron img {
     width: 100%;
+    position: relative;
+    top: 80px;
+}
+
+.fa-arrow-down {
+    font-size: 3.5rem;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 /* /Jumbo style */
