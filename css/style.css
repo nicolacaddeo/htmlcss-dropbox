@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* /GENERAL RULES */
 
 /***** UTILITIES *****/
@@ -150,11 +154,8 @@ label {
     vertical-align: middle;
 }
 
-.plan-details-container {}
-
 .plan-details {
     width: calc(100% / 3);
-    height: 200px;
     border: 1px solid #d0d0d3;
     margin-right: 60px;
 }
@@ -163,6 +164,31 @@ label {
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid #d0d0d3;
+}
+
+.column-container {
+    width: 90%;
+    margin: 20px auto;
+    line-height: 1.8rem;
+}
+
+.column-container span {
+    color: #666;
+}
+
+.plan-details ul {
+    padding: 40px 0;
+}
+
+.column-container .blue-button {
+    margin: 0px auto 25px auto;
+    display: block;
+    padding: 12px 30px;
+    width: 240px;
+}
+
+.column-container a {
+    text-decoration: underline;
 }
 
 /* /Main style */
@@ -176,7 +202,7 @@ label {
 /****** DEBUG ******/
 
 main section {
-    height: 500px;
+    height: 1500px;
     border: 2px dashed red;
 }
 
