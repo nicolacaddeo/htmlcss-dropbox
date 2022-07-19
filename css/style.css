@@ -17,6 +17,11 @@ a {
 /* /GENERAL RULES */
 
 /***** UTILITIES *****/
+.big-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .flex {
     display: flex;
 }
@@ -51,6 +56,10 @@ a {
 /* STYLE */
 
 /* Header style*/
+header {
+    line-height: 75px;
+}
+
 header>div {
     margin: 0 20px;
 }
@@ -67,6 +76,32 @@ header img {
 
 /* /Header style*/
 
+/* Jumbo style */
+.jumbo-tron {
+    background-color: #b4d0e7;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 100px 0 40px 0;
+    line-height: 6rem;
+    font-weight: 800;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.jumbo-tron img {
+    width: 100%;
+}
+
+/* /Jumbo style */
+
 /* Main style */
 
 /* /Main style */
@@ -78,14 +113,12 @@ header img {
 /* /STYLE */
 
 /****** DEBUG ******/
-header {
-    height: 90px;
-    line-height: 90px;
+
+main section {
+    height: 500px;
+    border: 2px dashed red;
 }
 
-.free-trial {
-    height: 720px;
-    background-color: #b4d0e7;
-}
+
 
 /****** DEBUG ******/
