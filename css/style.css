@@ -64,6 +64,13 @@ hr {
     font-size: 1rem;
 }
 
+.white-button {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+}
+
 /***** /UTILITIES *****/
 
 /* STYLE */
@@ -131,8 +138,11 @@ h1 {
 /* /Jumbo style */
 
 /* Main style */
+
+/* sezione colonne con piani tariffari */
 .pricing-plan {
     margin-top: 150px;
+    font-size: 0.9rem;
 }
 
 .pricing-plan h2 {
@@ -163,6 +173,8 @@ label {
     border: 1px solid #d0d0d3;
     margin-right: 60px;
 }
+
+/* TODO sistemare margini colonne e box orizzontale */
 
 .column-header {
     text-align: center;
@@ -230,6 +242,31 @@ h4 {
     padding: 12px 30px;
 }
 
+/* /sezione colonne con piani tariffari */
+
+/* SEZIONE BUSINESS */
+.w-60 {
+    width: 60%;
+}
+
+.w-30 {
+    width: 30%;
+    margin: 50px 0 0 50px;
+
+}
+
+.w-30 h2,
+p {
+    padding: 20px 0;
+    line-height: 1.5rem;
+}
+
+.find-partner img {
+    width: 100%;
+}
+
+/* /SEZIONE BUSINESS */
+
 /* /Main style */
 
 /* Footer style */
@@ -241,8 +278,9 @@ h4 {
 /****** DEBUG ******/
 
 main section {
-    min-height: 2000px;
+    min-height: 700px;
     border: 2px dashed red;
+    margin: 80px 0;
 }
 
 
