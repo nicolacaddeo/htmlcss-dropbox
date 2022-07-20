@@ -18,6 +18,10 @@ ul {
     list-style-type: none;
 }
 
+hr {
+    display: block;
+}
+
 /* /GENERAL RULES */
 
 /***** UTILITIES *****/
@@ -177,7 +181,11 @@ label {
 }
 
 .plan-details ul {
-    padding: 40px 0;
+    padding: 35px 0;
+}
+
+.plan-details li {
+    padding: 10px;
 }
 
 .column-container .blue-button {
@@ -191,6 +199,15 @@ label {
     text-decoration: underline;
 }
 
+.column-container hr {
+    width: 20%;
+    margin: 35px 0;
+}
+
+.blue-check {
+    color: #0061ff;
+}
+
 /* /Main style */
 
 /* Footer style */
@@ -202,7 +219,7 @@ label {
 /****** DEBUG ******/
 
 main section {
-    height: 1500px;
+    min-height: 1500px;
     border: 2px dashed red;
 }
 
