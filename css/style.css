@@ -208,6 +208,28 @@ label {
     color: #0061ff;
 }
 
+#horizzontal-container {
+    width: 1044px;
+    margin-top: 60px;
+    position: relative;
+}
+
+#horizzontal-container h3,
+h4 {
+    padding: 10px;
+}
+
+#horizzontal-container p {
+    padding: 30px 10px;
+}
+
+#horizzontal-container .blue-button {
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    padding: 12px 30px;
+}
+
 /* /Main style */
 
 /* Footer style */
@@ -219,7 +241,7 @@ label {
 /****** DEBUG ******/
 
 main section {
-    min-height: 1500px;
+    min-height: 2000px;
     border: 2px dashed red;
 }
 
