@@ -18,6 +18,10 @@ a:visited {
     color: currentColor;
 }
 
+section {
+    margin: 120px 0;
+}
+
 section img {
     width: 100%;
 }
@@ -112,6 +116,7 @@ header img {
 /* Jumbo style */
 .jumbo-tron {
     background-color: #b4d0e7;
+    margin-top: 0;
 }
 
 .jumbo-tron h1 {
@@ -460,15 +465,3 @@ span {
 /* /Footer style */
 
 /* /STYLE */
-
-/****** DEBUG ******/
-
-main section {
-    min-height: 200px;
-    /*border: 2px dashed red;*/
-    margin: 120px 0;
-}
-
-
-
-/****** DEBUG ******/
