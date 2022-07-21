@@ -187,13 +187,13 @@ label {
     border-bottom: 1px solid #d0d0d3;
 }
 
-.column-container {
+.centered-container {
     width: 90%;
     margin: 20px auto;
     line-height: 1.8rem;
 }
 
-.column-container span {
+.centered-container span {
     color: #666;
 }
 
@@ -205,18 +205,18 @@ label {
     padding: 10px;
 }
 
-.column-container .blue-button {
+.centered-container .blue-button {
     margin: 0px auto 25px auto;
     display: block;
     padding: 12px 30px;
     width: 240px;
 }
 
-.column-container a {
+.centered-container a {
     text-decoration: underline;
 }
 
-.column-container hr {
+.centered-container hr {
     width: 20%;
     margin: 35px 0;
 }
@@ -317,10 +317,17 @@ p {
     filter: invert(1)
 }
 
+/* middle square*/
 .middle {
     background-color: #f5f5f5;
 }
 
+.middle img {
+    width: 300px;
+    margin-top: 40px;
+}
+
+/* /middle square*/
 .designit {
     background-color: #a2d39b;
 }
