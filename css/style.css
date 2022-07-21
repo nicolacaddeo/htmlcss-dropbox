@@ -26,6 +26,11 @@ hr {
     display: block;
 }
 
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
 /* /GENERAL RULES */
 
 /***** UTILITIES *****/
@@ -127,7 +132,6 @@ header img {
 }
 
 .jumbo-tron img {
-    /*width: 100%;*/
     position: relative;
     top: 80px;
 }
@@ -148,11 +152,6 @@ header img {
 .pricing-plan {
     margin-top: 150px;
     font-size: 0.9rem;
-}
-
-.pricing-plan h2 {
-    font-size: 2.5rem;
-
 }
 
 #radio {
@@ -260,6 +259,10 @@ h4 {
 
 }
 
+.find-partner h2 {
+    font-size: 1.5em;
+}
+
 .w-30 h1,
 p {
     padding: 20px 0;
@@ -276,6 +279,11 @@ p {
     margin: 0px 20px 40px 20px;
 }
 
+.card-container h2 {
+    font-size: 1.5em;
+    line-height: 1.5rem;
+}
+
 .card-container img {
     display: block;
 }
@@ -286,8 +294,6 @@ p {
 }
 
 .small-container h2 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
     margin-bottom: 80px;
 }
 
@@ -364,7 +370,6 @@ p {
 
 .start-free-trial {
     width: 100%;
-    /*height: 18vw;*/
     background-color: #b4d0e7;
 }
 
@@ -374,7 +379,6 @@ p {
 
 .start-free-trial h2 {
     color: #61082b;
-    font-size: 2.5rem;
     line-height: 3rem;
 }
 
@@ -389,6 +393,29 @@ p {
 }
 
 /* /SEZIONE BUSINESS */
+
+/* Sezione FAQ */
+.faq h2 {
+    padding-bottom: 50px;
+}
+
+.faq hr {
+    width: 100%;
+}
+
+.faq span {
+    font-weight: bold;
+}
+
+.faq .faq-angle-down {
+    padding-left: 370px;
+}
+
+.question {
+    padding: 40px 0;
+}
+
+/* /Sezione FAQ */
 
 /* /Main style */
 
